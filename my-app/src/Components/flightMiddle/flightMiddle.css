@@ -1,0 +1,40 @@
+.middlesection {
+    background-color: #003580;
+    padding: 40px 0;
+    text-align: center; /* Center align the content */
+}
+
+.seccontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.flex {
+    flex: 1;
+    text-align: left; /* Align the text to the left */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align the children to the left */
+}
+
+.flex h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    text-align: left; /* Align the heading to the left */
+}
+
+.flex p {
+    font-size: 18px;
+    color: rgb(255, 248, 248);
+    margin: 10px 0;
+    text-align: left; /* Align the paragraph to the left */
+}

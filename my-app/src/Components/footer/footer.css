@@ -1,0 +1,77 @@
+/* Style for the whole footer */
+.footer {
+    background-color: #003580;
+    color: #fff;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  /* Style for the logo section */
+  .footer-logo {
+    flex: 1;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .footer-logo p {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Style for the contact information section */
+  .footer-contact h3 {
+    flex: 1;
+    padding: 20px;
+    color: white;
+ 
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item .icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the social icons section */
+  .footer-social {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the bottom section with copyright text */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+  }
+  

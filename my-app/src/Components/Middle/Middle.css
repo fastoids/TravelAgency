@@ -1,0 +1,36 @@
+.middlesection {
+    background-color: #003580;
+    padding: 40px 0;
+  }
+  
+  .seccontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .flex {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .flex h1 {
+    font-size: 36px;
+    color: #0071c2;
+    margin: 0;
+  }
+  
+  .flex p {
+    font-size: 18px;
+    color: rgb(255, 248, 248);
+    margin: 10px 0;
+  }
+  

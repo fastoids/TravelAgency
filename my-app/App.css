@@ -1,0 +1,67 @@
+/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&family=Bree+Serif&family=Itim&family=Poppins:ital,wght@0,600;1,200;1,400&family=Roboto:ital,wght@1,500&display=swap');
+
+:root {
+  
+  --primaryColor: hsl(200, 62%, 77%);
+  --primarycolorlight: hsl(200, 80%, 85%);
+  --bgcolor:  #ffffff;;
+  --formcolor: hsl(210, 90%, 90%);
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(0, 0%, 10%);
+  --greyText: hsl(0, 0%, 50%);
+  --inputcolor: hsl(0, 0%, 97%);
+  --cardcolor: hsl(0, 0%, 95%);
+  --bigFontsize: 2.5rem;
+  --h1Fontsize: 2rem;
+  --h2Fontsize: 1.5rem;
+  --h3Fontsize: 1.25rem;
+  --normalFontsize: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar styles */
+.navBar {
+  background-color: var(--whitecolor);
+  color: var(--blackcolor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  border-bottom: 1.5px solid var(--bgcolor);
+  box-shadow: 2px 4px var(--blackcolor);
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+html {
+  font-size: 98%;
+}

@@ -113,7 +113,7 @@ const Destination = () => {
                     <span className="name">{destination.name}</span>
                     <p className='flex'>
                       <TiLocation className="icon" />
-                      {destination.location}
+                      {destination.location} 
                     </p>
                     <span className="rating">{destination.rating}</span>
                   </div>

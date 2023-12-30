@@ -9,10 +9,14 @@ import { useLocation } from 'react-router-dom';
 import { useState } from "react";
 import { format } from "date-fns";
 import { DateRange } from 'react-date-range';
+import { useParams } from 'react-router-dom';
 
-const List = () => {
+
+const List = (props) => {
   const location = useLocation();
-  
+  let { id } = useParams();
+  console.log(id);
+
   // Check if location.state exists
   const destination = location.state && location.state.destination ? location.state.destination : '';
   const initialDate = location.state && location.state.date ? location.state.date : null;

@@ -14,6 +14,7 @@ import FlightBooking from './Pages/flightBooking/FlightBooking';
 import Gallery from './Pages/gallery/Gallery';
 import Login from './Pages/login/Login';
 import Register from './Pages/register/register'
+import Recommendation from './Pages/recommendation/recommendation';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
     <Route path="/hotels" element= {<List/>}/>
     <Route path="/home/hotels/pack" element= {<Hotel/>}/>
     <Route path="/home/hotels/pack/con" element= {<Contact/>}/>
-    <Route path="/home/hotels/pack/:id" element= {<FlightBooking/>}/>    
+    <Route path="/home/hotels/pack/:id" element= {<Recommendation/>}/>    
     <Route path="/login" element= {<Login/>}/>
     <Route path="/register" element={<Register/>}/>
     </Routes>

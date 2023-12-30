@@ -7,7 +7,7 @@ import Navbar from "../../Components/navbar/Navbar";
 import Header from "../../Components/header/Header";
 import MailList from "../../Components/mailList/MailList";
 import Footer from "../../Components/footer/Footer";
-
+import HotelsHeader from "../../Components/hotels/HotelsHeader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleArrowLeft,
